@@ -1,3 +1,6 @@
+[Repository](https://github.com/miguel-chacon-ni/Lead-Scoring-Model) <br>
+[Presentation](https://github.com/miguel-chacon-ni/Lead-Scoring-Model/blob/main/Presentation.pptx)
+
 # Scoring Banking Leads
 *Miguel Chacón*
 
@@ -50,5 +53,5 @@ The dataset consists of 45,000 instances of phone calls made by sales representa
 
 ## Links
 
-[Repository](https://github.com/miguel-chacon-ni/Lead-Scoring-Model)
+[Repository](https://github.com/miguel-chacon-ni/Lead-Scoring-Model) <br>
 [Presentation](https://github.com/miguel-chacon-ni/Lead-Scoring-Model/blob/main/Presentation.pptx)
