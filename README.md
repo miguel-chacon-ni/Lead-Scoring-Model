@@ -22,10 +22,10 @@ In this project, I use Machine Learning with Python to create a lead scoring mod
 ## Business Question
 The client, a commercial bank, wants to improve its sales without hiring more sales representatives. I use Business Analytics frameworks to approach the question and deliver a solution.
 
-The lead scoring model I delivered reduces the proportion of leads that are contacted while simoultaneously increasing the conversion rate. All else equal, this will allow further lead-generation campaigns to increase their lead volume, leading to an increase in revenue and, thus, profitability.
+The lead scoring model I delivered reduces the proportion of leads that are contacted while simultaneously increasing the conversion rate. All else equal, this will allow further lead-generation campaigns to increase their lead volume, leading to an increase in revenue and, thus, profitability.
 
 ## Dataset
-The dataset consists of 45,000 instances of phone calls by sales representatives to leads during a sales campai
+The dataset consists of 45,000 instances of phone calls made by sales representatives during a sales campaign.
 
 ## Analysis
 * Overview the general steps you went through to analyze your data in order to test your hypothesis.
@@ -37,7 +37,7 @@ The dataset consists of 45,000 instances of phone calls by sales representatives
 1. Dimensionality reduction achieved by merging categories.
 2. Columns with multicollinearity were dropped.
 3. Categorical columns were encoded.
-4. The target variable was changed to a numberical type.
+4. The target variable was changed to a numerical type.
 
 ## Model Training and Evaluation
 1. Tested 46 combinations of 8 algorithms and 6 scalers with default settings to find the combination with the highest recall score.
@@ -49,8 +49,6 @@ The dataset consists of 45,000 instances of phone calls by sales representatives
 2. A PPT presentation detailing the business question, the model as a solution, and the results.
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project.
-
 
 [Repository](https://github.com/miguel-chacon-ni/Lead-Scoring-Model)
-[Presentation](https://github.com/miguel-chacon-ni/Lead-Scoring-Model)
+[Presentation](https://github.com/miguel-chacon-ni/Lead-Scoring-Model/blob/main/Presentation.pptx)
