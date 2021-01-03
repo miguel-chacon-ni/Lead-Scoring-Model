@@ -5,32 +5,27 @@
 - [Project Description](#project-description)
 - [Hypotheses / Questions](#hypotheses-questions)
 - [Dataset](#dataset)
-- [Cleaning](#cleaning)
 - [Analysis](#analysis)
+- [Cleaning](#cleaning)
 - [Model Training and Evaluation](#model-training-and-evaluation)
-- [Conclusion](#conclusion)
-- [Future Work](#future-work)
-- [Workflow](#workflow)
-- [Organization](#organization)
+- [Deliverables](#Deliverables)
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show.
+In this project, I use Machine Learning with Python to create a lead scoring model, leading a 50% increase in conversion rate. It is meant to show my understanding of:
 
-## Hypotheses / Questions
-* What data/business/research/personal question you would like to answer?
-* What is the context for the question and the possible scientific or business application?
-* What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+1. Machine Learning concepts, pipelines and model building & tuning.
+2. Digital Marketing and conversion rate optimization.
+3. Python, Pandas, and Scikit-learn.
+4. Modeling and forecasting of business processes.
+
+## Business Question
+The client, a commercial bank, wants to improve its sales without hiring more sales representatives. I use Business Analytics frameworks to approach the question and deliver a solution.
+
+The lead scoring model I delivered reduces the proportion of leads that are contacted while simoultaneously increasing the conversion rate. All else equal, this will allow further lead-generation campaigns to increase their lead volume, leading to an increase in revenue and, thus, profitability.
 
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API or a web scraper? PRovide the relevant scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
-
-## Cleaning
-Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did as well as your reasoning behind the process.
+The dataset consists of 45,000 instances of phone calls by sales representatives to leads during a sales campai
 
 ## Analysis
 * Overview the general steps you went through to analyze your data in order to test your hypothesis.
@@ -38,31 +33,24 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 * Include charts to demonstrate the effect of your work.
 * If you used Machine Learning in your final project, describe your feature selection process.
 
+## Cleaning
+1. Dimensionality reduction achieved by merging categories.
+2. Columns with multicollinearity were dropped.
+3. Categorical columns were encoded.
+4. The target variable was changed to a numberical type.
+
 ## Model Training and Evaluation
-*Include this section only if you chose to include ML in your project.*
-* Describe how you trained your model, the results you obtained, and how you evaluated those results.
+1. Tested 46 combinations of 8 algorithms and 6 scalers with default settings to find the combination with the highest recall score.
+2. Selected a Random Forest Classifier and tested 100 parameter combinations with a 3-fold cross-validation for each, optimizing for Recall. The resulting model had 65% higher score than the model with default settings. 
+3. To evaluate the model, I took a random sample of 15 leads and made educated guesses on whether they would convert, comparing my results against the model. The model's predictions led to a 50% higher conversion rate.
 
-## Conclusion
-* Summarize your results. What do they mean?
-* What can you say about your hypotheses?
-* Interpret your findings in terms of the questions you try to answer.
-
-## Future Work
-Address any questions you were unable to answer, or any next steps or future extensions to your project.
-
-## Workflow
-Outline the workflow you used in your project. What were the steps?
-How did you test the accuracy of your analysis and/or machine learning algorithm?
-
-## Organization
-How did you organize your work? Did you use any tools like a trello or kanban board?
-
-What does your repository look like? Explain your folder and file structure.
+## Deliverables
+1. A Machine Learning model that allows new leads to be assigned a score between 1 and 10 based on their likelihood to convert to sales, allowing the sales team to prioritize these for calls.
+2. A PPT presentation detailing the business question, the model as a solution, and the results.
 
 ## Links
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project.
 
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Repository](https://github.com/miguel-chacon-ni/Lead-Scoring-Model)
+[Presentation](https://github.com/miguel-chacon-ni/Lead-Scoring-Model)
