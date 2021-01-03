@@ -1,7 +1,5 @@
-# Title of My Project
-*[Your Name]*
-
-*[Your Cohort, Campus & Date]*
+# Scoring Banking Leads
+*Miguel Chacón*
 
 ## Content
 - [Project Description](#project-description)
